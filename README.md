@@ -23,9 +23,39 @@ The repository contains the following essential components:
 
 ```bash
 
-https://github.com/ddrozo31/joint_state_pkg_g00.git
+git clone https://github.com/ddrozo31/joint_state_pkg_g00.git
+```
 
+2. Ensure dependencies are installed
 
+Make sure the following ROS packages are installed:
+
+    - robot_state_publisher
+    - joint_state_publisher (or your custom joint state node)
+    - xacro
+    - rviz
+
+3. Build the workspace and source
+
+If your node is inside a ROS workspace, ensure you build it:
+
+```bash
+
+colcon build --symlink-install
+source ~/ros2_ws_2402/install/setup.bash
+```
+
+4. Run the launch file:
+
+```bash
+ros2 launch joint_state_pkg_g00 rsp.launch.py
+
+```
+
+5. Configure RViz2:
+
+    - Select the `world`.
+    - Add a TF2 plugin, include the names of the topics.
 
 ## Presentation
 
