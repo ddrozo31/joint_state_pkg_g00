@@ -59,5 +59,5 @@ ros2 launch joint_state_pkg_g00 rsp.launch.py
 
 ## Presentation
 
-**EIA University**, Mechatronical Eng. - Industrial Robotics Laboratory 
+**EIA University**, Mechatronics Eng. - Industrial Robotics Laboratory 
 *Professor*: David Rozo Osorio M.Sc. email: david.rozo31@eia.edu.co
