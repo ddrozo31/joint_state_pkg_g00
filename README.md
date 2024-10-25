@@ -31,7 +31,7 @@ git clone https://github.com/ddrozo31/joint_state_pkg_g00.git
 Make sure the following ROS packages are installed:
 
     - robot_state_publisher
-    - joint state node
+    - ([joint state node ](https://github.com/ddrozo31/joint_state_pkg_g00/blob/main/joint_state_publisher_node.rst))
     - xacro
     - rviz
 
