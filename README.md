@@ -9,7 +9,7 @@ The repository contains the following essential components:
 
 2. **Launch File**: The launch file coordinates the execution of several nodes and tools, including:
 
-    - The Joint State Node
+    - [The Joint State Node](https://github.com/ddrozo31/joint_state_pkg_g00/blob/main/joint_state_publisher_node.rst)
     - RViz for visualization
     - robot_state_publisher to broadcast the robot's URDF model
     - Xacro processing to generate the URDF dynamically
@@ -31,7 +31,7 @@ git clone https://github.com/ddrozo31/joint_state_pkg_g00.git
 Make sure the following ROS packages are installed:
 
     - robot_state_publisher
-    - ([joint state node ](https://github.com/ddrozo31/joint_state_pkg_g00/blob/main/joint_state_publisher_node.rst))
+    - joint state node
     - xacro
     - rviz
 
