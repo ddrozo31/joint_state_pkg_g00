@@ -21,11 +21,10 @@ The repository contains the following essential components:
 
 1. Clone the repository
 
-´´´bash
+```bash
 
 https://github.com/ddrozo31/joint_state_pkg_g00.git
 
-´´´
 
 
 ## Presentation
