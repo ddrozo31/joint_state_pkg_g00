@@ -15,3 +15,20 @@ The repository contains the following essential components:
     - Xacro processing to generate the URDF dynamically
 
 3. **Xacro/URDF Files**: The robot model is defined using Xacro, which allows for parameterized URDF descriptions. These files are processed during launch to generate a valid URDF for the robot.
+
+
+### Setup Instructions
+
+1. Clone the repository
+
+´´´bash
+
+https://github.com/ddrozo31/joint_state_pkg_g00.git
+
+´´´
+
+
+## Presentation
+
+**EIA University**, Mechatronical Eng. - Industrial Robotics Laboratory 
+*Professor*: David Rozo Osorio M.Sc. email: david.rozo31@eia.edu.co
