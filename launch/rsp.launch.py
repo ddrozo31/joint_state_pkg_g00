@@ -31,7 +31,7 @@ def generate_launch_description():
     )
 
     node_joint_state = Node(
-        package='position_control_pkg_2402_alpha',
+        package='joint_state_pkg_g00',
         executable='joint_state_node',
         output='screen',
     )
